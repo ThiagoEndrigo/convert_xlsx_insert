@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adiciona o arquivo CSS externo -->
+</head>
+<body>
+    <div class="login-container">
+        <img id="logo" src="https://github.com/ThiagoEndrigo/Convert_XLSX2/blob/main/Icone.png?raw=true" alt="Logo">
+        <h1>Conversor de Excel para SQL - Login</h1>
+
+        <form id="login-form" class="login-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" class="login-button">Entrar</button>
+        </form>
+        <p id="login-status" class="login-status"></p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

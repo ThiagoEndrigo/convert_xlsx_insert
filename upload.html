@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Arquivo XLSX</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adiciona o arquivo CSS externo -->
+</head>
+<body>
+    <h1>Upload de Arquivo XLSX</h1>
+
+    <input id="file-input" type="file" onchange="handleFiles(event)" multiple accept=".xlsx, .xls">
+    <button id="clear-button" onclick="clearFiles()">Limpar Seleção</button>
+    <div id="sql-links"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
